@@ -1,0 +1,50 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    display: flex;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://images6.alphacoders.com/107/1072679.jpg);
+    background-position: center;
+    position: relative;
+}
+.kartu-1 {
+    width: 350px;
+    height: 500px;
+    background-image: url(https://i.pinimg.com/564x/cc/41/b0/cc41b0cc3ea9e15a3c5761d753cc40d5.jpg);
+    background-size: cover;
+    box-shadow:0 14px 25px opx #00000026;
+    position: relative;
+    border-radius: 15px;
+}
+.kartu-2 {
+    width: 350px;
+    height: 500px;
+    background-image: url(https://i.pinimg.com/564x/3b/90/cf/3b90cf59002bb935899479b7ef557b59.jpg);
+    margin: 15px;
+    background-size: cover;
+    box-shadow:0 14px 25px opx #00000026;
+    position: relative;
+    border-radius: 15px;
+}
+.isi {
+    position: absolute;
+    padding: 30px;
+    margin: 30px;
+    font-family: sans-serif;
+    top: 20px;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    color:#fff ;
+    backdrop-filter: blur(7px);
+    border-radius: 12px;
+}
+.isi h1 {
+    margin-bottom: 20px;
+}
+.isi p {
+    font-size: 14px;
+}       
